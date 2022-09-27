@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(59deg , rgb(182, 189, 192), skyblue);
+    clip-path: polygon(0% 0% , 100% 0% , 100% 70% , 0% 100%);
+}
+.left-side img{
+    height: 100%;
+    width: 30vw;
+    border-radius: 82% 18% 71% 29% / 51% 61% 39% 49%  ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo h1{
+
+    font-size: 3rem;
+    font-weight: 600;
+    color: beige;
+    margin-left: 4rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li{
+    margin-left :5rem;
+    margin-right: 2rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+        text-transform: uppercase;
+    
+}
+nav li a:hover{
+    color: brown;
+    
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+section{
+    margin-top: 5rem;
+    display: flex;
+}
+section .right-side{
+    margin-left: 13rem;
+
+}
+section .right-side h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: beige;
+    text-transform: uppercase;
+   
+
+}
+section .right-side p{
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 300;
+    max-width: 30rem;
+    margin-top: 2rem;
+    text-transform:capitalize;
+    
+}
+button{
+    
+    padding: 0.6rem 1.5rem;
+    margin-top:5rem ;
+    cursor: pointer;
+    text-transform: capitalize;
+    background: linear-gradient(59deg , skyblue, rgb(70, 95, 105));
+    border: none;
+}
+button:hover{
+    box-shadow: 10px 5px 5px rgb(43, 41, 41);
+    background: linear-gradient(59deg , rgb(70, 95, 105), skyblue);
+}
